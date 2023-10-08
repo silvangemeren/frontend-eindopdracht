@@ -1,0 +1,689 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&display=swap');
+
+* {
+    font-family: 'Martian Mono';
+    box-sizing: border-box;
+}
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 769px) {
+
+    body {
+        color: rgb(255, 255, 255);
+        margin: 0 auto;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: solid rgb(0, 0, 0);
+        background-color: rgb(100, 100, 100);
+        padding: 5px;
+
+    }
+
+    .logo img {
+        max-height: 60px;
+        max-width: 100%;
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px 3px rgb(184, 184, 184)
+    }
+
+    .links {
+        display: flex;
+    }
+
+    nav a {
+        text-decoration: none;
+        display: flex;
+        padding: 15px;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .boxlink {
+        background-color: #000;
+        border: 1px solid #000;
+        border-radius: 10px;
+
+    }
+
+    a:hover {
+        color: rgb(0, 0, 255);
+    }
+
+
+
+    main {
+        margin: auto;
+        background-color: rgb(0, 33, 95);
+        width: auto;
+    }
+
+
+
+    header {
+        display: flex;
+        background-image: url(https://wallpaperaccess.com/full/443044.jpg);
+        background-position: center;
+        max-width: 100%;
+        height: 20vw;
+        margin: auto;
+        padding-left: 20v;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2, 5rem;
+    }
+
+    .laptopsbeschrijving p {
+        font-size: 0, 9rem;
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+
+    .laptopsbeschrijving {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0vw 0vw 0vw 0vw
+    }
+
+    .linksheader {
+        display: flex;
+        justify-content: center;
+    }
+
+    .linksheader a {
+        border: 5px solid rgb(0, 33, 95);
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        padding: 15px;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .linksheader a:hover {
+        background-color: #000000;
+        color: rgb(0, 0, 255);
+    }
+
+    #producten {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 7vh;
+        background-color: rgb(0, 68, 196);
+        gap: 50px;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+
+    #producten img {
+        height: 50%;
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    .items a {
+        border: 5px solid rgb(0, 33, 95);
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        padding: 15px;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .items a:hover {
+        background-color: #000;
+        color: rgb(0, 0, 255);
+    }
+
+
+
+    #form {
+
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5vh;
+        width: 55vw;
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .voorachternaam {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .mail {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .woongeboorte {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .selectbox {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .uwvraag {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding-top: 2vh;
+    }
+
+    .textinput {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 2vh;
+    }
+
+    .radiobuttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        border-radius: 15px;
+        padding-bottom: 5px;
+    }
+
+    input[type="text"] {
+        width: 25vw;
+        font-size: 1, 2rem;
+        padding: 11px;
+    }
+
+    input[type="e-mail"] {
+        font-size: 1, 2 rem;
+        padding: 11px;
+        width: 52vw;
+    }
+
+    input[type="date"] {
+        width: 25vw;
+        font-size: 1, 2rem;
+        padding: 11px;
+    }
+
+    select {
+        border-radius: 15px;
+        padding: 11px;
+        font-size: 1, 2rem;
+    }
+
+    textarea {
+        height: 150px;
+    }
+
+    .radioeen {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .radiobuttons label {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100px;
+        margin-bottom: 2vh;
+    }
+
+    .voorwaarden {
+        margin-bottom: 2vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .buttoninput button {
+        width: 850px;
+        background-color: rgb(100, 100, 100);
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    .buttoninput button:hover {
+        color: rgb(0, 0, 255);
+        cursor: pointer;
+    }
+
+
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: solid rgb(0, 0, 0);
+        background-color: rgb(100, 100, 100);
+        padding: 5px;
+        height: 15vh;
+
+    }
+
+    footer .logo img {
+        margin-left: 25px;
+    }
+
+    .copyright {
+        margin-right: 27%;
+    }
+
+    .algemeen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(100, 100, 100);
+        padding: 5px;
+
+    }
+
+    .algemeen a {
+        text-decoration: none;
+        display: flex;
+        padding: 15px;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .algemeen a:hover {
+        color: rgb(0, 0, 255);
+    }
+
+    #chatwindow {
+        position: fixed;
+        bottom: 2vh;
+        right: 2vw;
+        font-size: 1.2rem;
+        background-color: aqua;
+        padding: 10px 20px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 5, 5vh;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px black;
+        transform: translatex(200px);
+        animation: show-chat 3s forwards
+    }
+
+    @keyframes show-chat {
+        0% {
+            transform: translatex(200px);
+            filter: blur(10px);
+        }
+
+        100% {
+            transform: none;
+            filter: none;
+        }
+    }
+
+    #chat-content {
+        flex-basis: 200px;
+        background-color: rgb(131, 131, 131);
+        font-size: 0.8rem;
+        padding: 10px 20px;
+        flex: 1;
+    }
+}
+
+
+
+
+/*Telefoon*/
+@media only screen and (max-width: 768px) {
+
+    body {
+        color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid rgb(0, 0, 0);
+        background-color: rgb(100, 100, 100);
+        padding: 0px 200px 0px 200px;
+    }
+
+    .logo img {
+        max-height: 40px;
+        max-width: 100%;
+        border-radius: 10%;
+        box-shadow: 3px 3px 3px 3px rgb(184, 184, 184);
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    nav a {
+        text-decoration: none;
+        display: flex;
+        padding: 10px 20px;
+        margin: 0px 10px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 5px;
+        font-size: 0, 9rem;
+    }
+
+    .boxlink {
+        background-color: #000;
+        border: 1px solid #000;
+        border-radius: 10px;
+        margin: 0 10px;
+    }
+
+    a:hover {
+        color: rgb(0, 0, 255);
+    }
+
+    main {
+        margin: auto;
+        background-color: rgb(0, 33, 95);
+        width: auto;
+    }
+
+    header {
+        display: flex;
+        background-image: url(https://wallpaperaccess.com/full/443044.jpg);
+        background-position: center;
+        max-width: 100%;
+        height: 20vw auto;
+        margin: auto;
+        padding-left: 20px;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .laptopsbeschrijving p {
+        font-size: 1rem;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+
+    .linksheader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .linksheader a {
+        border: 5px solid rgb(0, 33, 95);
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        padding: 15px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    .linksheader a:hover {
+        background-color: #000000;
+        color: rgb(0, 0, 255);
+    }
+
+    #producten {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 7vh;
+        background-color: rgb(0, 68, 196);
+        gap: 50px;
+        color: #000;
+    }
+
+    .items {
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 20px;
+        margin: 10px;
+        max-width: 300px;
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+    }
+
+    #producten img {
+        height: auto;
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    .items h3 {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .items p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .items a {
+        border: 5px solid rgb(0, 33, 95);
+        border-radius: 10px;
+        text-decoration: none;
+        display: flex;
+        padding: 15px;
+        color: white;
+        margin-left: 10px;
+    }
+
+    .items a:hover {
+        background-color: #000;
+        color: rgb(0, 0, 255);
+    }
+
+
+
+    #form {
+        color: #000;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5vh;
+        max-width: 900px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .voorwaarden {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .uwvraag textarea {
+        border-radius: 15px;
+        padding: 11px;
+        font-size: 1.2rem;
+        height: 150px;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .woongeboorte input[type="text"] {
+        width: 100%;
+    }
+
+    .woongeboorte input[type="date"] {
+        width: 100%;
+    }
+
+    .mail input[type="email"] {
+        width: 100%;
+    }
+
+    .selectbox select {
+        border-radius: 15px;
+        padding: 11px;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+
+    .radioeen {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .radiobuttons label {
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .voorwaarden input[type="checkbox"] {
+        transform: scale(1.5);
+    }
+
+    .buttoninput button {
+        width: 100%;
+        background-color: rgb(100, 100, 100);
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        font-size: 1.2rem;
+    }
+
+    .buttoninput button:hover {
+        color: rgb(0, 0, 255);
+        cursor: pointer;
+    }
+
+    .radioeen {
+        flex-direction: column;
+    }
+
+
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border: solid rgb(0, 0, 0);
+        background-color: rgb(100, 100, 100);
+        padding: 20px;
+    }
+
+    .footer-content {
+        width: 100%;
+        max-width: 900px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-content .logo img {
+        max-height: 30px;
+    }
+
+    .footer-content .algemeen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .footer-content .algemeen a {
+        text-decoration: none;
+        display: flex;
+        padding: 5px;
+        color: white;
+    }
+
+    .algemeen a:hover {
+        color: rgb(0, 0, 255);
+    }
+
+
+
+    #chatwindow {
+        position: fixed;
+        bottom: 2vh;
+        right: 2vw;
+        font-size: 1.2rem;
+        background-color: aqua;
+        padding: 10px 20px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 5.5vh;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px black;
+        transform: translateX(200px);
+        animation: show-chat 3s forwards;
+    }
+
+    @keyframes show-chat {
+        0% {
+            transform: translateX(200px);
+            filter: blur(10px);
+        }
+
+        100% {
+            transform: none;
+            filter: none;
+        }
+    }
+
+    #chat-content {
+        flex-basis: 200px;
+        background-color: rgb(131, 131, 131);
+        font-size: 0.8rem;
+        padding: 10px 20px;
+        flex: 1;
+    }
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Eindopdracht Front-end</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"><a href=""><img src="images/5.jpg" alt=""></a></div>
+        <div class="links"><a href="">Homepage</a>
+            <a href="#producten">Producten</a>
+            <a href="">Bedrijf</a>
+            <div class="boxlink"><a href="#form">Contact</a></div>
+        </div>
+    </nav>
+
+    <Main>
+
+        <header>
+            <article class="laptopsbeschrijving">
+                <h1>De beste laptops</h1>
+                <p>Wil je een laptop die moeiteloos meegaat met je veeleisende taken? Zoek niet verder! Op deze website
+                    hebben we meerdere premium
+                    laptops met elkaar vergeleken zodat jij een laptop kan kiezen die het beste bij je past. Voor werk,
+                    school en meer; de laptops bieden
+                    ongekende prestaties en betrouwbaarheid en zijn voor alles te gebruiken. Ze kunnen ook zware games
+                    runnen zoals gta V en Roblox. Heb je nog vragen of wil je simpelweg meer weten, vul dan
+                    ons onderstaande contactformulier in.</p>
+                <div class="linksheader">
+                    <a href="#form">Contactformulier</a>
+                    <a href="#producten">Producten</a>
+                </div>
+            </article>
+        </header>
+
+        <section id="producten">
+            <article class="items">
+                <img src="./images/8094-refurbished-dell-latitude-3380-laptop-5-1.webp">
+                <h3>Super Laptop 5000</h3>
+                <p>
+                    Deze Laptop is erg milieu-virendelijk. Hij gaat lang mee voor dat deze moeten worden opgeladen.
+                    Daarnaast is deze laptop ook nog redelijk snel. de prijs valt mee met maar 499 euro! De specs van
+                    deze laptop zijn voor zijn prijs ook erg goed. En natuurlijk heeft deze laptop haarscherpe belden op
+                    een hoogwaardige display!
+                </p>
+                <div class="linkproduct">
+                    <a href="linkbewerk">Bestellen</a>
+                </div>
+            </article>
+
+            <article class="items">
+                <img src="./images/hp-elitebook-850-g4_7_2.webp">
+                <h3>Mega Laptop 5000</h3>
+                <p>
+                    Zoals je het misschien hoort aan de naam is het scherm van deze laptop erg groot. Maar wel liefst 35
+                    inch breed! Dit is dan ook een echte thuis-werk laptop. De prijs ligt ook wel wat hoger op 899 Euro.
+                    Hierbij zijn de specs wel een stuk beter met een sneller processor en een beter videokaart dan de
+                    bij de Super laptop 5000.
+                </p>
+                <div class="linkproduct">
+                    <a href="linkbewerk">Bestellen</a>
+                </div>
+            </article>
+
+            <article class="items">
+                <img src="./images/RWULWB.avif">
+                <h3>Mega Super Laptop 5000</h3>
+                <p>
+                    Dit is natuurlijk het beste van de twee vorige laptops. Hij is milieu-vriendelijk, gaat lang mee
+                    voor dat deze moet worden opgeladen. De specs van deze laptop zijn het best tot nu toe. Er zit een
+                    gigantisch goede videokaart in met een bijbehorende processor en een goede beeldkwaliteit! De prijs
+                    van de laptop is wel redelijk hoog op 1199 euro.
+                </p>
+                <div class="linkproduct">
+                    <a href="linkbewerk">Bestellen</a>
+                </div>
+            </article>
+        </section>
+
+        <section id="form">
+            <h2>Contactformulier</h2>
+            <form action="./contact.html">
+
+                <div class="voorachternaam">
+                    <div class="textinput">
+                        <label for="voornaam">Voornaam</label>
+                        <input required type="text" id="voornaam" name="voornaam">
+                    </div>
+
+                    <div class="textinput">
+                        <label for="achternaam">Achternaam</label>
+                        <input required type="text" id="voornaam" name="voornaam">
+                    </div>
+                </div>
+
+                <div class="mail">
+                    <div class="textinput">
+                        <label for="E-mail">E-mail</label>
+                        <input required type="E-mail" id="E-mail" name="E-mail">
+                    </div>
+                </div>
+
+                <div class="woongeboorte">
+                    <div class="textinput">
+                        <label for="woonplaats">woonplaats</label>
+                        <input required type="text" id="woonplaats" name="woonplaats">
+                    </div>
+
+                    <div class="textinput">
+                        <label for="date">Geboortedatum</label>
+                        <input required type="date" id="date" name="date">
+                    </div>
+                </div>
+
+                <div class="selectbox">
+                    <label for="text">Onderwerp</label>
+                    <select required id="onderwerp" name="onderwerp">
+                        <option value="">Kies een onderwerp van het bericht...</option>
+                        <option value="0">Retouneren</option>
+                        <option value="1">Prijs</option>
+                        <option value="2">Kwaliteit</option>
+                        <option value="3">Bezorging</option>
+                    </select>
+                </div>
+
+                <div class="uwvraag">
+                    <label for="text">Uw vraag</label>
+                    <textarea required id="vraag" name="vraag"></textarea>
+                </div>
+
+                <div class="radiobuttons">
+                    <h3>Inschrijven voor nieuwsbrief?</h3>
+                    <div class="radioeen">
+                        <input type="radio" id="ja" name="ja" value="ja">
+                        <label for="ja">Ja</label>
+                        <input type="radio" id="nee" name="nee" value="nee">
+                        <label for="nee">Nee</label>
+                    </div>
+                </div>
+
+
+                <div class="voorwaarden">
+                    <label for="voorwaarden">Ik ga akkoord met de algemene voorwaarden</label>
+                    <input required type="radio" id="voorwaarden" name="voorwaarden">
+                </div>
+
+                <div class="buttoninput"><button type="submit">Versturen</button></div>
+            </form>
+
+            <div id="chatwindow">
+                <div id="chat-title">Chat met een expert</div>
+                <div id="chat-content">hoe kan ik je helpen</div>
+                <input type="text" id="chat-question" name="hoi">
+            </div>
+
+        </section>
+
+        <footer>
+
+            <div class="logo"><a href="">
+                    <img src="images/5.jpg" alt="">
+                </a></div>
+
+            <div class="copyright">
+                <p>Copyright 2023</p>
+            </div>
+
+            <div class="algemeen">
+                <a href="">Privacyverklaring</a>
+                <a href="">Algemene voorwaarden</a>
+                <a href="">Cookie beleid</a>
+                <a href="#form">Contact</a>
+            </div>
+
+        </footer>
+
+    </Main>
+
+</body>
+
+</html>
